@@ -1,0 +1,15 @@
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1%;
+    width: auto;
+    background-color: #858f99;
+}
+
+.toolButton {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: auto;
+}

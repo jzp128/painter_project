@@ -1,0 +1,52 @@
+.main {
+    display: block;
+    /*flex-direction: column;*/
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.menuButton {
+    marginRight: 16px;
+}
+
+.fab {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 3px;
+    justify-content: flex-end;
+}
+
+.controlContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logOutContainer {
+    margin-left: 5px;
+    max-height: 100%;
+    width: auto;
+}
+
+.logOut {
+    max-height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.logOut:hover {
+    cursor: pointer;
+}
+
+
+.navBar {
+}

@@ -1,0 +1,41 @@
+{
+  "name": "painter",
+  "version": "1.0.0",
+  "description": "* Eric Choy\r * Zhi Sheng (Jimmy) Pang",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
+    "heroku-postbuild": "cd simple-drawing && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "mailgun-js": "^0.22.0",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.4",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "socket.io": "^2.3.0",
+    "uid": "^1.0.0"
+  },
+  "main": "server.js",
+  "devDependencies": {
+    "express-validator": "^6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UTSCC09/project-tteam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UTSCC09/project-tteam/issues"
+  },
+  "homepage": "https://github.com/UTSCC09/project-tteam#readme"
+}

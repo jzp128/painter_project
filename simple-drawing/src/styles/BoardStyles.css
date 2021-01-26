@@ -1,0 +1,64 @@
+.Board {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 4px;
+}
+
+.MainBoard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.Top {
+    /*position: fixed;*/
+    /*top: 0;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    z-index: 5;
+    background-color: #858f99;
+}
+
+/*.Top div:last-child {*/
+/*    margin-left: auto;*/
+/*}*/
+
+.CanvasContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    width: 387px;
+    border:none;
+    margin-left: 5px;
+}
+
+.startNew {
+    justify-content: center; 
+}
+
+.startNew > .startNewButtons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center; 
+}
